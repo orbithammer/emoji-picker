@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8c5729bf07.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1 class="title">Brock's Emojis</h1>   
+        <div id="emoji-container"></div>
+        <div class="buttons-wrapper">
+            <button id="unshift-btn" onclick="addBeg()" class="btn"><i class="fa-solid fa-arrow-up-right-from-square fa-flip-horizontal"></i></button>
+            <button id="reset-btn" onclick="reset()" class="btn"><i class="fa-solid fa-trash-arrow-up"></i></button>
+            <button id="save-btn" onclick="save()" class="btn"><i class="fa-solid fa-floppy-disk"></i></button>
+            <button id="push-btn" onclick="addEnd()" class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        </div>
+        <div class="emoji-input-wrapper">
+            <p id="emoji-display-el">💘</p>
+            <input type="number" value="1" min="1" max="1528" id="emoji-input" onchange="pickEmoji()">
+        </div>
+        <!-- <div class="buttons-wrapper">
+            <button id="pop-btn">Remove from end</button>
+            <button id="shift-btn">Remove from beginning</button>
+        </div> -->
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+.title {
+    text-shadow: 0 0 10px black;
+}
+
+.emoji {
+    text-shadow: 5px 5px 10px;
+}
+
+.emoji-input-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#emoji-display-el {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.btn {
+    box-shadow: 0 0 3px black;
+}
+
+#push-btn, #unshift-btn, #save-btn {
+    background-color: forestgreen;
+}
+
+#reset-btn {
+    background: orangered;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin-right: auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
